@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.products {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.products img {
+  width: 100%;
+}
+
+.product_detail {
+  padding: 40px;
+}
+
+button {
+  font-size: 15px;
+  padding: 7px;
+  font-style: normal;
+  background-color: rgb(8, 219, 8);
+}
+
+footer {
+  background-color: rgb(245, 147, 212);
+  padding: 10px;
+}
+
+.heading {
+  background-color: rgb(235, 13, 13);
 }
